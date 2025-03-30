@@ -2,57 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Luxury Cars</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
+
 <body>
+  <!-- NAVBAR -->
   <header class="navbar">
     <div class="logo">Luxury<span>Cars</span></div>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
+  <!-- HERO -->
   <section class="hero">
-    <img src="assets/images/ferrari-logo.png" alt="Luxury Logo" class="hero-logo" />
-    <h1>Where Elegance Meets Performance</h1>
-    <a href="#" class="btn-primary">Discover Our Collection</a>
-  </section>
-
-  <section class="carousel">
-    <div class="carousel-track">
-      <img src="assets/images/car1.jpg" alt="Ferrari Front" />
-      <img src="assets/images/car2.jpg" alt="Ferrari Side" />
-      <img src="assets/images/car3.jpg" alt="Ferrari Interior" />
+    <div class="hero-text">
+      <h1>Precision & Passion</h1>
+      <p>The essence of speed and style redefined. Explore our exclusive Ferrari lineup and enter the world of iconic design and innovation.</p>
+      <a href="#about" class="btn">Discover More</a>
     </div>
   </section>
 
-  <section class="intro">
-    <h2>Experience the Drive</h2>
-    <p>
-      Explore a curated gallery of the world’s most prestigious cars.  
-      Uniting timeless Italian design with modern performance.
-    </p>
+  <!-- FEATURE BLOCK -->
+  <section class="feature-block">
+    <div class="feature-text">
+      <h2>La Ferrari Experience</h2>
+      <p>From the roar of the engine to the subtle touch of handcrafted leather, every Ferrari is a story of Italian excellence. Visit our showroom and feel it yourself.</p>
+      <a href="#contact">Schedule a Visit</a>
+    </div>
+    <div class="feature-img">
+      <img src="assets/images/car_banner.jpg" alt="Ferrari Side View">
+    </div>
   </section>
 
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h2>About Our Space</h2>
+    <p>Located in the heart of Toronto, our showroom brings the timeless prestige of Ferrari directly to you. Designed to reflect the elegance of the cars we represent, the space blends modern architecture with an immersive automotive journey.</p>
+    <p>Come meet our expert advisors and take the first step into the world of Ferrari ownership.</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Get in Touch</h2>
+    <ul>
+      <li><strong>Email:</strong> contact@luxurycars.com</li>
+      <li><strong>Phone:</strong> +1 (416) 123-4567</li>
+      <li><strong>Location:</strong> Toronto, ON</li>
+    </ul>
+    <a class="btn-outline" href="mailto:contact@luxurycars.com">Contact Us</a>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    <p>&copy; 2025 Luxury Cars. Designed by Vitor Latorraca e equipe.</p>
+    <p>&copy; 2025 Luxury Cars. Inspired by Ferrari. Designed by Matheus Daher, Vitor Latorraca, Thaian Curcio</p>
   </footer>
-
-  <script>
-    const track = document.querySelector(".carousel-track");
-    let pos = 0;
-
-    setInterval(() => {
-      pos = (pos + 1) % track.children.length;
-      track.style.transform = `translateX(-${pos * 100}%)`;
-    }, 4000);
-  </script>
 </body>
 </html>
