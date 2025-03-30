@@ -1,0 +1,352 @@
+[
+  {
+    "make": "Ford",
+    "model": "F-Series",
+    "year": 2004,
+    "color": "Yellow",
+    "price": 18443.41
+  },
+  {
+    "make": "Acura",
+    "model": "SLX",
+    "year": 1997,
+    "color": "Yellow",
+    "price": 49869.57
+  },
+  {
+    "make": "Daewoo",
+    "model": "Nubira",
+    "year": 1999,
+    "color": "Maroon",
+    "price": 47309.88
+  },
+  {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "year": 2010,
+    "color": "Green",
+    "price": 85497.56
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "year": 2000,
+    "color": "Fuscia",
+    "price": 66032.2
+  },
+  {
+    "make": "Volvo",
+    "model": "S40",
+    "year": 2008,
+    "color": "Goldenrod",
+    "price": 84909.38
+  },
+  {
+    "make": "MINI",
+    "model": "Clubman",
+    "year": 2010,
+    "color": "Red",
+    "price": 26865.48
+  },
+  {
+    "make": "McLaren",
+    "model": "MP4-12C",
+    "year": 2012,
+    "color": "Yellow",
+    "price": 39112.25
+  },
+  {
+    "make": "Hyundai",
+    "model": "XG300",
+    "year": 2001,
+    "color": "Mauv",
+    "price": 72673.1
+  },
+  {
+    "make": "Dodge",
+    "model": "Dynasty",
+    "year": 1993,
+    "color": "Yellow",
+    "price": 87386.5
+  },
+  {
+    "make": "Buick",
+    "model": "Skylark",
+    "year": 1989,
+    "color": "Indigo",
+    "price": 58363.78
+  },
+  {
+    "make": "Buick",
+    "model": "LaCrosse",
+    "year": 2006,
+    "color": "Purple",
+    "price": 80336.38
+  },
+  {
+    "make": "Lexus",
+    "model": "ES",
+    "year": 1993,
+    "color": "Maroon",
+    "price": 68853.98
+  },
+  {
+    "make": "Mercury",
+    "model": "Cougar",
+    "year": 1996,
+    "color": "Khaki",
+    "price": 97464.02
+  },
+  {
+    "make": "Acura",
+    "model": "RDX",
+    "year": 2011,
+    "color": "Khaki",
+    "price": 27000.14
+  },
+  {
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2012,
+    "color": "Maroon",
+    "price": 58364.88
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Galant",
+    "year": 1993,
+    "color": "Yellow",
+    "price": 35197.15
+  },
+  {
+    "make": "Buick",
+    "model": "LeSabre",
+    "year": 1994,
+    "color": "Blue",
+    "price": 13478.12
+  },
+  {
+    "make": "Dodge",
+    "model": "Magnum",
+    "year": 2008,
+    "color": "Puce",
+    "price": 39864.42
+  },
+  {
+    "make": "Mazda",
+    "model": "B-Series Plus",
+    "year": 1995,
+    "color": "Pink",
+    "price": 9293.22
+  },
+  {
+    "make": "Buick",
+    "model": "Rendezvous",
+    "year": 2003,
+    "color": "Red",
+    "price": 34422.54
+  },
+  {
+    "make": "Bentley",
+    "model": "Continental",
+    "year": 2008,
+    "color": "Indigo",
+    "price": 96902.49
+  },
+  {
+    "make": "Lexus",
+    "model": "IS-F",
+    "year": 2010,
+    "color": "Orange",
+    "price": 66156.94
+  },
+  {
+    "make": "Chrysler",
+    "model": "300",
+    "year": 2006,
+    "color": "Fuscia",
+    "price": 48842.58
+  },
+  {
+    "make": "Aptera",
+    "model": "Typ-1",
+    "year": 2008,
+    "color": "Indigo",
+    "price": 77075.98
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Precis",
+    "year": 1993,
+    "color": "Khaki",
+    "price": 54704.97
+  },
+  {
+    "make": "Isuzu",
+    "model": "Rodeo",
+    "year": 2001,
+    "color": "Blue",
+    "price": 55367.05
+  },
+  {
+    "make": "Land Rover",
+    "model": "Discovery",
+    "year": 2004,
+    "color": "Goldenrod",
+    "price": 21529.24
+  },
+  {
+    "make": "Dodge",
+    "model": "Caravan",
+    "year": 2012,
+    "color": "Aquamarine",
+    "price": 89045.27
+  },
+  {
+    "make": "Isuzu",
+    "model": "Trooper",
+    "year": 2001,
+    "color": "Yellow",
+    "price": 35303.83
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "SL-Class",
+    "year": 1990,
+    "color": "Mauv",
+    "price": 39908.95
+  },
+  {
+    "make": "Saab",
+    "model": "9-7X",
+    "year": 2008,
+    "color": "Yellow",
+    "price": 98005.27
+  },
+  {
+    "make": "Mazda",
+    "model": "626",
+    "year": 1987,
+    "color": "Maroon",
+    "price": 82270.18
+  },
+  {
+    "make": "Pontiac",
+    "model": "G5",
+    "year": 2009,
+    "color": "Violet",
+    "price": 41918.32
+  },
+  {
+    "make": "Lexus",
+    "model": "SC",
+    "year": 1995,
+    "color": "Green",
+    "price": 6156.76
+  },
+  {
+    "make": "Honda",
+    "model": "CR-Z",
+    "year": 2011,
+    "color": "Puce",
+    "price": 16713.56
+  },
+  {
+    "make": "Infiniti",
+    "model": "EX",
+    "year": 2011,
+    "color": "Puce",
+    "price": 42816.69
+  },
+  {
+    "make": "Lotus",
+    "model": "Elise",
+    "year": 2009,
+    "color": "Red",
+    "price": 59678.79
+  },
+  {
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2010,
+    "color": "Indigo",
+    "price": 48292.71
+  },
+  {
+    "make": "Lexus",
+    "model": "LX",
+    "year": 1996,
+    "color": "Pink",
+    "price": 28658.74
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "year": 1988,
+    "color": "Yellow",
+    "price": 9463.61
+  },
+  {
+    "make": "Buick",
+    "model": "Electra",
+    "year": 1986,
+    "color": "Pink",
+    "price": 59523.48
+  },
+  {
+    "make": "Dodge",
+    "model": "Avenger",
+    "year": 2009,
+    "color": "Teal",
+    "price": 83101.69
+  },
+  {
+    "make": "Lincoln",
+    "model": "Blackwood",
+    "year": 2002,
+    "color": "Pink",
+    "price": 20191.28
+  },
+  {
+    "make": "Ford",
+    "model": "Econoline E150",
+    "year": 1994,
+    "color": "Maroon",
+    "price": 73412.03
+  },
+  {
+    "make": "Mazda",
+    "model": "Millenia",
+    "year": 1996,
+    "color": "Blue",
+    "price": 15027.62
+  },
+  {
+    "make": "Pontiac",
+    "model": "Torrent",
+    "year": 2007,
+    "color": "Puce",
+    "price": 45517.05
+  },
+  {
+    "make": "Lincoln",
+    "model": "Mark VIII",
+    "year": 1997,
+    "color": "Turquoise",
+    "price": 26340.05
+  },
+  {
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2004,
+    "color": "Fuscia",
+    "price": 34580.47
+  },
+  {
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2005,
+    "color": "Green",
+    "price": 66712.17
+  }
+]

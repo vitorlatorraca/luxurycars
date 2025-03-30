@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxury Cars</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Luxury<span>Cars</span></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="assets/images/ferrari-logo.png" alt="Luxury Logo" class="hero-logo" />
+    <h1>Where Elegance Meets Performance</h1>
+    <a href="#" class="btn-primary">Discover Our Collection</a>
+  </section>
+
+  <section class="carousel">
+    <div class="carousel-track">
+      <img src="assets/images/car1.jpg" alt="Ferrari Front" />
+      <img src="assets/images/car2.jpg" alt="Ferrari Side" />
+      <img src="assets/images/car3.jpg" alt="Ferrari Interior" />
+    </div>
+  </section>
+
+  <section class="intro">
+    <h2>Experience the Drive</h2>
+    <p>
+      Explore a curated gallery of the world’s most prestigious cars.  
+      Uniting timeless Italian design with modern performance.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Luxury Cars. Designed by Vitor Latorraca e equipe.</p>
+  </footer>
+
+  <script>
+    const track = document.querySelector(".carousel-track");
+    let pos = 0;
+
+    setInterval(() => {
+      pos = (pos + 1) % track.children.length;
+      track.style.transform = `translateX(-${pos * 100}%)`;
+    }, 4000);
+  </script>
+</body>
+</html>
